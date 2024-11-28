@@ -9,7 +9,7 @@ from PIL import image
 st.title("Web App")
 st.write("**これがstreamlitアプリ**")
 
-img = Image.oepn("aikon.jpeg")
+img = Image.open("aikon.jpeg")
 st.image(img,width=200)
 
 answer = st.button('Say hello')
