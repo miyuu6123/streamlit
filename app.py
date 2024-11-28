@@ -4,9 +4,13 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+from PIL import image
 
 st.title("Web App")
 st.write("**これがstreamlitアプリ**")
+
+img = Image.oepn("aikon.jpeg")
+st.image(img,width=200)
 
 answer = st.button('Say hello')
 
