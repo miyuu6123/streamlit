@@ -4,7 +4,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from PIL import image
+from PIL import Image
 
 st.title("Web App")
 st.write("**これがstreamlitアプリ**")
