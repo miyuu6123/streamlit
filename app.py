@@ -11,6 +11,8 @@ st.write("**これがstreamlitアプリ**")
 
 img = Image.open("aikon.jpeg")
 st.image(img,width=200)
+st.video("https://youtu.be/zI9-qCpxz4o?si=bl-FddVYuedXjE9M")
+
 
 answer = st.button('Say hello')
 
