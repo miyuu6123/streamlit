@@ -2,4 +2,4 @@
 
 import streamlit as st
 
-st.write('これはstreamlitアプリです。')
+st.write('これは公開用のstreamlitアプリです。')
